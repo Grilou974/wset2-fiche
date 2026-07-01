@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WSET 2 — Fiche de cours complète</title>
+<style>
+  :root{
+    --bordeaux:#6b1f2a; --bordeaux2:#8c2b3a; --gold:#c9a24b; --gold-soft:#efe3c4;
+    --cream:#fbf7ef; --ink:#2b2422; --paper:#ffffff; --green:#4b7a52; --blue:#3f6d8c;
+    --rose:#b8677a; --shadow:0 6px 22px rgba(107,31,42,.10);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:linear-gradient(160deg,#f4ece0,#fbf7ef);color:var(--ink);
+    font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;padding:0 0 60px}
+  .wrap{max-width:960px;margin:0 auto;padding:0 22px}
+  header.hero{background:radial-gradient(120% 140% at 0% 0%,var(--bordeaux2),var(--bordeaux));
+    color:#fff;padding:48px 22px 40px;text-align:center;position:relative;overflow:hidden}
+  header.hero::after{content:"🍷";position:absolute;font-size:220px;opacity:.06;right:-20px;bottom:-60px}
+  header.hero h1{margin:0;font-size:2.5rem;letter-spacing:.5px}
+  header.hero p{margin:10px 0 0;font-size:1.05rem;color:var(--gold-soft)}
+  .badge{display:inline-block;background:var(--gold);color:#3a2410;font-weight:700;
+    padding:6px 16px;border-radius:30px;margin-top:16px;font-size:.9rem;letter-spacing:.4px}
+  h2.section{display:flex;align-items:center;gap:12px;font-size:1.5rem;color:var(--bordeaux);
+    margin:48px 0 16px;padding-bottom:10px;border-bottom:3px solid var(--gold)}
+  h2.section .num{background:var(--bordeaux);color:#fff;width:38px;height:38px;border-radius:50%;
+    display:grid;place-items:center;font-size:1rem;flex:none;box-shadow:var(--shadow)}
+  h3{color:var(--bordeaux2);margin:26px 0 8px;font-size:1.15rem}
+  .card{background:var(--paper);border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);
+    margin:14px 0;border:1px solid #efe6d6}
+  .tip{background:var(--gold-soft);border-left:6px solid var(--gold);border-radius:10px;
+    padding:12px 16px;margin:14px 0;font-size:.97rem}
+  .tip strong{color:var(--bordeaux)}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:.92rem;background:#fff;
+    border-radius:12px;overflow:hidden;box-shadow:var(--shadow)}
+  th{background:var(--bordeaux);color:#fff;text-align:left;padding:10px 12px;font-weight:600}
+  td{padding:9px 12px;border-top:1px solid #f0e8da;vertical-align:top}
+  tr:nth-child(even) td{background:#fbf6ec}
+  .grape{font-weight:700;color:var(--bordeaux)}
+  .pill{display:inline-block;font-size:.75rem;font-weight:700;padding:2px 9px;border-radius:20px;margin-right:4px}
+  .p-white{background:#eef4ee;color:var(--green)} .p-red{background:#f6e9ec;color:var(--bordeaux)}
+  .p-blue{background:#e8f0f5;color:var(--blue)}
+  ul{margin:8px 0 8px 0;padding-left:20px} li{margin:4px 0}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:640px){.cols{grid-template-columns:1fr}header.hero h1{font-size:1.9rem}}
+  .star{color:var(--gold)}
+  .foot{text-align:center;margin-top:40px;color:var(--bordeaux2);font-style:italic}
+  .key{font-weight:700;color:var(--bordeaux2)}
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>WSET Niveau 2 — Fiche de cours</h1>
+  <p>Tout ce qu'il faut apprendre par cœur pour réussir l'examen</p>
+  <div class="badge">QCM · 50 questions · 55 % pour valider</div>
+</header>
+
+<div class="wrap">
+
+  <div class="tip" style="margin-top:26px">
+    <strong>Comment utiliser cette fiche :</strong> passe <strong>la moitié de ton temps sur les cépages (§1-2)</strong> — c'est 60-70 % des points. Apprends en mode actif : cache la réponse, récite, vérifie. Termine toujours par des <strong>QCM blancs</strong>.
+  </div>
+
+  <!-- 1 -->
+  <h2 class="section"><span class="num">1</span> Les cépages blancs <span class="star">★</span></h2>
+  <table>
+    <tr><th>Cépage</th><th>Acidité / Corps</th><th>Arômes clés</th><th>Régions</th></tr>
+    <tr><td class="grape">Chardonnay ★</td><td>Acidité moy-élevée · corps moyen à corsé</td><td>Frais : agrumes, pomme verte · Chaud : pêche, ananas · Boisé : <b>vanille, beurre, toasté</b></td><td>Bourgogne (Chablis, Mâcon), Californie, Australie, Chili</td></tr>
+    <tr><td class="grape">Sauvignon Blanc ★</td><td>Acidité élevée · léger</td><td>Agrumes, groseille à maquereau, <b>herbe coupée, ortie, asperge</b>, fruit de la passion</td><td>Loire (Sancerre, Pouilly-Fumé), Marlborough (NZ), Bordeaux</td></tr>
+    <tr><td class="grape">Riesling ★</td><td><b>Acidité très élevée</b> · léger</td><td>Citron vert, pomme verte, pêche, fleurs · âge : <b>pétrole</b> · jamais boisé</td><td>Allemagne (Mosel, Rheingau), Alsace, Australie (Clare)</td></tr>
+    <tr><td class="grape">Pinot Grigio / Gris</td><td>Acidité moyenne · léger (Italie) ou corsé (Alsace)</td><td>Grigio : neutre, agrumes · Gris (Alsace) : riche, épicé, parfois demi-sec</td><td>Italie · Alsace</td></tr>
+  </table>
+  <div class="card">
+    <h3 style="margin-top:0">Autres blancs à connaître</h3>
+    <ul>
+      <li><span class="grape">Sémillon</span> — Bordeaux (avec Sauvignon) ; base des liquoreux <b>Sauternes</b> (pourriture noble).</li>
+      <li><span class="grape">Chenin Blanc</span> — Loire (Vouvray), Afrique du Sud ; sec à doux, acidité élevée, coing/miel.</li>
+      <li><span class="grape">Viognier</span> — Rhône (Condrieu) ; corsé, abricot, pêche, fleurs.</li>
+      <li><span class="grape">Gewurztraminer</span> — Alsace ; très aromatique, corsé, litchi, rose, épices.</li>
+      <li><span class="grape">Muscat</span> — arôme de raisin frais, souvent doux · <span class="grape">Albariño</span> — Espagne (Rías Baixas), vif, agrumes.</li>
+    </ul>
+  </div>
+
+  <!-- 2 -->
+  <h2 class="section"><span class="num">2</span> Les cépages noirs <span class="star">★</span></h2>
+  <table>
+    <tr><th>Cépage</th><th>Tanins / Acidité / Corps</th><th>Arômes clés</th><th>Régions</th></tr>
+    <tr><td class="grape">Cabernet Sauvignon ★</td><td>Tanins <b>élevés</b> · acidité élevée · corsé</td><td><b>Cassis</b>, mûre, poivron vert, menthe, cèdre, vanille</td><td>Bordeaux rive gauche (Médoc, Pauillac), Californie, Chili, Coonawarra</td></tr>
+    <tr><td class="grape">Merlot ★</td><td>Tanins moyens · <b>plus souple</b> · corsé</td><td>Prune, mûre, cerise noire</td><td>Bordeaux rive droite (St-Émilion, Pomerol), Chili</td></tr>
+    <tr><td class="grape">Pinot Noir ★</td><td>Tanins <b>faibles</b> · acidité élevée · léger (pâle)</td><td><b>Fraise, framboise, cerise rouge</b> · âge : sous-bois, gibier</td><td>Bourgogne, NZ, Californie (Sonoma), Allemagne</td></tr>
+    <tr><td class="grape">Syrah / Shiraz ★</td><td>Tanins <b>élevés</b> · corsé</td><td>Syrah (Rhône) : poivre noir, fumé · Shiraz (Australie) : confituré, réglisse, chocolat</td><td>Rhône nord, Barossa (Australie)</td></tr>
+    <tr><td class="grape">Grenache / Garnacha</td><td>Tanins moyens · <b>alcool élevé</b> · corsé</td><td>Fruits rouges confiturés, épices</td><td>Rhône (GSM, Châteauneuf-du-Pape), Espagne</td></tr>
+  </table>
+  <div class="card">
+    <h3 style="margin-top:0">Autres noirs à connaître</h3>
+    <ul>
+      <li><span class="grape">Tempranillo</span> — Espagne (<b>Rioja</b>, Ribera del Duero) ; cuir, tabac, vanille/coco (chêne américain).</li>
+      <li><span class="grape">Sangiovese</span> — Italie (<b>Chianti, Toscane</b>) ; acidité + tanins élevés, cerise, tomate séchée.</li>
+      <li><span class="grape">Nebbiolo</span> — Italie (<b>Barolo, Barbaresco, Piémont</b>) ; tanins ET acidité très élevés, pâle, rose, goudron.</li>
+      <li><span class="grape">Gamay</span> — <b>Beaujolais</b> ; léger, faible tanin, fruité · <span class="grape">Malbec</span> — Argentine (Mendoza), corsé, prune.</li>
+      <li><span class="grape">Zinfandel / Primitivo</span> — Californie / Italie ; corsé, très mûr, confituré, alcool élevé.</li>
+    </ul>
+  </div>
+
+  <!-- 3 -->
+  <h2 class="section"><span class="num">3</span> Région → Cépage (le piège européen)</h2>
+  <div class="tip"><strong>En Europe, les vins portent le nom de la RÉGION, pas du cépage.</strong> Tu dois connaître le cépage caché derrière chaque appellation.</div>
+  <div class="cols">
+    <table>
+      <tr><th>Appellation</th><th>Cépage</th></tr>
+      <tr><td>Chablis, Bourgogne blanc, Mâcon</td><td class="grape">Chardonnay</td></tr>
+      <tr><td>Sancerre, Pouilly-Fumé</td><td class="grape">Sauvignon Blanc</td></tr>
+      <tr><td>Vouvray</td><td class="grape">Chenin Blanc</td></tr>
+      <tr><td>Condrieu</td><td class="grape">Viognier</td></tr>
+      <tr><td>Mosel, Rheingau</td><td class="grape">Riesling</td></tr>
+      <tr><td>Sauternes (doux)</td><td class="grape">Sémillon</td></tr>
+    </table>
+    <table>
+      <tr><th>Appellation</th><th>Cépage</th></tr>
+      <tr><td>Bordeaux rive gauche (Médoc)</td><td class="grape">Cab. Sauvignon</td></tr>
+      <tr><td>Bordeaux rive droite (St-Émilion)</td><td class="grape">Merlot</td></tr>
+      <tr><td>Bourgogne rouge</td><td class="grape">Pinot Noir</td></tr>
+      <tr><td>Beaujolais</td><td class="grape">Gamay</td></tr>
+      <tr><td>Châteauneuf-du-Pape / Rhône sud</td><td class="grape">Grenache (GSM)</td></tr>
+      <tr><td>Rhône nord (Hermitage, Côte-Rôtie)</td><td class="grape">Syrah</td></tr>
+      <tr><td>Rioja, Ribera del Duero</td><td class="grape">Tempranillo</td></tr>
+      <tr><td>Chianti, Brunello (Toscane)</td><td class="grape">Sangiovese</td></tr>
+      <tr><td>Barolo, Barbaresco (Piémont)</td><td class="grape">Nebbiolo</td></tr>
+    </table>
+  </div>
+
+  <!-- 4 -->
+  <h2 class="section"><span class="num">4</span> Le climat</h2>
+  <div class="cols">
+    <div class="card"><h3 style="margin-top:0">🧊 Climat frais</h3>+ acide · − alcool · corps léger<br>fruits <b>verts</b> (pomme verte, agrumes / groseille)<br><small>Champagne, Mosel, Chablis</small></div>
+    <div class="card"><h3 style="margin-top:0">🌤️ Climat modéré</h3>équilibré<br>fruits <b>mûrs mais frais</b> (pêche, cassis)<br><small>Bordeaux, Bourgogne, Rioja</small></div>
+  </div>
+  <div class="card"><h3 style="margin-top:0">☀️ Climat chaud</h3>+ alcool · − acide · corps corsé · fruits <b>cuits / confiturés</b> (banane, prune, confiture) <small>— Barossa, sud Espagne, Californie</small></div>
+  <div class="tip"><strong>Règle d'or :</strong> plus il fait chaud → vin plus mûr, alcoolisé, confituré, MOINS acide. Plus il fait frais → plus acide, léger, fruits verts.</div>
+
+  <!-- 5 -->
+  <h2 class="section"><span class="num">5</span> La vinification</h2>
+  <div class="cols">
+    <div class="card">
+      <h3 style="margin-top:0">Ce qui donne les arômes</h3>
+      <ul>
+        <li><b>Fût de chêne</b> → vanille, toasté, épices douces, coco, fumé + tanins</li>
+        <li><b>Malolactique</b> → <b>beurre</b>, texture crémeuse</li>
+        <li><b>Élevage sur lies</b> → <b>brioche, pain frais</b> (Champagne)</li>
+        <li><b>Macération longue</b> (rouges) → + couleur, + tanins</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Effervescents</h3>
+      <ul>
+        <li><b>Méthode traditionnelle</b> = 2ᵉ ferment. <b>en bouteille</b> (Champagne, Cava, Crémant) → bulles fines, brioche, qualitatif</li>
+        <li><b>Cuve close / Charmat</b> = 2ᵉ ferment. <b>en cuve</b> (<b>Prosecco</b>) → fruité, simple</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cols">
+    <div class="card">
+      <h3 style="margin-top:0">Vins doux (obtenir le sucre)</h3>
+      <ul>
+        <li><b>Arrêt de fermentation</b> (froid ou SO₂)</li>
+        <li><b>Pourriture noble / Botrytis</b> → Sauternes, Tokaji</li>
+        <li><b>Passerillage</b> (raisins séchés)</li>
+        <li><b>Vendange gelée</b> → vin de glace / Eiswein</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Vins mutés (alcool ajouté)</h3>
+      <ul>
+        <li><b>Porto</b> : alcool <b>pendant</b> la ferment. → reste <b>doux</b>, rouge, puissant (Portugal)</li>
+        <li><b>Xérès / Sherry</b> : alcool <b>après</b> → généralement <b>sec</b> (Espagne). Fino (léger) → Oloroso (riche)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <h2 class="section"><span class="num">6</span> Températures de service</h2>
+  <table>
+    <tr><th>Style de vin</th><th>Température</th><th>Repère</th></tr>
+    <tr><td>Vins doux</td><td><b>6-8 °C</b></td><td>Bien frais</td></tr>
+    <tr><td>Effervescents</td><td><b>6-10 °C</b></td><td>Bien frais</td></tr>
+    <tr><td>Blancs / rosés légers</td><td><b>7-10 °C</b></td><td>Frais</td></tr>
+    <tr><td>Blancs corsés (Chardonnay boisé)</td><td><b>10-13 °C</b></td><td>Légèrement frais</td></tr>
+    <tr><td>Rouges légers (Beaujolais, Pinot Noir)</td><td><b>13-18 °C</b></td><td>Légèrement frais / ambiante</td></tr>
+    <tr><td>Rouges corsés (Bordeaux, Shiraz)</td><td><b>15-18 °C</b></td><td>Ambiante (chambré)</td></tr>
+  </table>
+  <div class="tip"><strong>Règle :</strong> léger / doux / pétillant → plus froid · corsé / tannique → plus chaud.</div>
+
+  <!-- 7 -->
+  <h2 class="section"><span class="num">7</span> Accords mets & vins</h2>
+  <div class="cols">
+    <div class="card" style="border-top:5px solid var(--green)">
+      <h3 style="margin-top:0;color:var(--green)">✅ Les alliés du vin</h3>
+      <p><b>SEL</b> et <b>ACIDITÉ</b> dans le plat → adoucissent le vin : moins acide, moins amer, moins tannique, <b>plus fruité</b>.</p>
+    </div>
+    <div class="card" style="border-top:5px solid var(--bordeaux)">
+      <h3 style="margin-top:0;color:var(--bordeaux)">⚠️ Les ennemis du vin</h3>
+      <p><b>SUCRE</b> et <b>UMAMI</b> dans le plat → durcissent le vin : plus amer, plus acide, plus astringent, <b>moins fruité</b>.</p>
+    </div>
+  </div>
+  <div class="card">
+    <ul style="columns:2">
+      <li>Plat <b>acide</b> → vin à acidité élevée</li>
+      <li>Plat <b>sucré</b> → vin <b>plus</b> sucré que le plat</li>
+      <li>Plat <b>gras</b> → vin à acidité élevée (tranche le gras)</li>
+      <li>Plat <b>salé</b> → assouplit un vin tannique</li>
+      <li>Plat <b>umami</b> → vin fruité, peu tannique</li>
+      <li>Plat <b>parfumé</b> → vin à forte intensité aromatique</li>
+    </ul>
+  </div>
+
+  <!-- 8 -->
+  <h2 class="section"><span class="num">8</span> Les défauts du vin</h2>
+  <table>
+    <tr><th>Défaut</th><th>Cause</th><th>Ce qu'on sent</th></tr>
+    <tr><td><b>Bouchonné (goût de bouchon)</b></td><td><b>TCA</b> (du bouchon de liège)</td><td>Carton mouillé, cave humide, arômes éteints</td></tr>
+    <tr><td>Oxydation</td><td>Trop d'air</td><td>Couleur brunie, pomme blette, noix</td></tr>
+    <tr><td>Acescence / piqûre acétique</td><td>Acide acétique (bactéries)</td><td>Vinaigre, dissolvant</td></tr>
+    <tr><td>Réduction</td><td>Manque d'oxygène (soufre)</td><td>Œuf pourri, chou — part à l'aération</td></tr>
+  </table>
+
+  <!-- 9 -->
+  <h2 class="section"><span class="num">9</span> Étiquetage, conservation & service</h2>
+  <div class="cols">
+    <div class="card">
+      <h3 style="margin-top:0">Étiquetage</h3>
+      <ul>
+        <li>Sucre croissant : <b>Sec &lt; Demi-sec &lt; Moelleux &lt; Doux</b></li>
+        <li><b>Brut</b> (effervescents) = sec</li>
+        <li>Qualité UE : <b>AOP/AOC &gt; IGP &gt; Vin de France</b></li>
+        <li>Europe : nom par région · Nouveau Monde : nom par cépage</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Conservation & service</h3>
+      <ul>
+        <li>À l'abri de la <b>lumière</b>, au <b>frais et stable</b> (~10-15 °C)</li>
+        <li>Bouteilles <b>couchées</b> (bouchon humide), sans vibrations</li>
+        <li>La plupart des vins se boivent <b>jeunes</b></li>
+        <li><b>Carafage</b> : aérer un jeune vin tannique OU séparer un vieux vin de son dépôt</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Plan -->
+  <h2 class="section"><span class="num">🎯</span> Plan de révision express (3-4 h)</h2>
+  <div class="card">
+    <ul>
+      <li><b>~2h30 — Cépages (§1, 2, 3)</b> : le cœur de l'examen. Mode actif : cache la réponse, récite, vérifie.</li>
+      <li><b>~30 min — Survol §4 à 9</b> : climat, vinif, températures, accords, défauts, étiquetage.</li>
+      <li><b>~1h — QCM blancs</b> (Oenovino en propose gratuitement) : repère tes trous et rerévise-les.</li>
+    </ul>
+    <div class="tip" style="margin-bottom:0"><strong>LE réflexe à muscler :</strong> « description → cépage → région ». On te donne un profil (acidité, arômes, boisé ou non) et tu retrouves le cépage. Maîtrise ça sur les 8 principaux et l'examen est à toi.</div>
+  </div>
+
+  <p class="foot">Bonne révision — avec cette fiche apprise à fond + des QCM blancs, tu peux te présenter serein. 🍷</p>
+
+</div>
+</body>
+</html>
